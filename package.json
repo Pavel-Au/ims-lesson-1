@@ -1,0 +1,19 @@
+{
+  "name": "ims-lesson-1",
+  "version": "1.0.0",
+  "description": "Homework_ims_lesson_1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pavel-Au/ims-lesson-1/issues"
+  },
+  "homepage": "https://github.com/Pavel-Au/ims-lesson-1#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}

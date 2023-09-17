@@ -1,0 +1,33 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0 15px;
+}
+
+.table__data {
+    min-width: 30%;
+    margin: 0 auto;
+}
+
+.row__brand {
+    line-height: 34px;
+    background-color: rgb(64, 81, 181);
+}
+
+.model__name {
+    background-color: rgb(233, 30, 99);
+}
+
+.row__brand, .model__name {
+    cursor: default;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.model__details {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-transform: capitalize;
+    line-height: 24px;
+}
