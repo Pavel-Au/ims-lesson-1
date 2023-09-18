@@ -87,3 +87,5 @@ var CARS = [{
     }]
   }]
 }];
+
+export default CARS;

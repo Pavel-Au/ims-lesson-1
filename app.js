@@ -1,3 +1,5 @@
+import CARS from "./data.js";
+
 var App = function (carsData) {
   var ListOfProperties = function ListOfProperties(_ref) {
     var _ref$collectionOfDeta = _ref.collectionOfDetails,
@@ -80,3 +82,5 @@ var App = function (carsData) {
     return React.createElement(CarTable, { dataModel: carsData });
   };
 }(CARS);
+
+export default App;

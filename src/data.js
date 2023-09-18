@@ -112,3 +112,5 @@ const CARS = [
     ],
   },
 ];
+
+export default CARS;

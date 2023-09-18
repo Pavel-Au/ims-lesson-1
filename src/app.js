@@ -1,3 +1,5 @@
+import CARS from "./data.js";
+
 const App = ((carsData) => {
   const ListOfProperties = ({ collectionOfDetails = {}, excludeKey }) => (
     <ul>
@@ -49,3 +51,5 @@ const App = ((carsData) => {
 
   return () => <CarTable dataModel={carsData} />;
 })(CARS);
+
+export default App;
